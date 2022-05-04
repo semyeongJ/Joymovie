@@ -19,17 +19,18 @@ function Detail() {
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-        <div>
+        <div style={{ height: "500px", width: "1000px" }}>
           <h2>{movie.title_long}</h2>
           <div style={{ float: "left", display: "inline" }}>
             <img src={movie.medium_cover_image} alt={movie.title} />
           </div>
-          <div style={{ whiteSpace: "pre-line", position: "relative", left: "30px" }}>
+          <div style={{ wordBreak: "break-all", position: "relative", left: "30px" }}>
             <ul>
               <li>Genre: {movie.genres.map((genre) => `${genre},`)}</li>
               <li>Language: {movie.language}</li>
-              <li>Runtime: {movie.runtime}minutes</li>
+              <li>Runtime: {movie.runtime} minutes</li>
               <li>Rating: {movie.rating}/10</li>
+              <li>Summary: {movie.description_full}</li>
             </ul>
           </div>
         </div>

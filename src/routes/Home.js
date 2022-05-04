@@ -8,6 +8,7 @@ function Home() {
     const json = await (await fetch(`https://yts.mx/api/v2/list_movies.json?minimum_rating=9.0&sort_by=year`)).json();
     setMovies(json.data.movies);
     setLoading(false);
+    console.log(json);
   };
   useEffect(() => {
     getMovies();
