@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/JoyMovie/static/js/main.b85a687b.js",
-    "index.html": "/JoyMovie/index.html",
-    "main.b85a687b.js.map": "/JoyMovie/static/js/main.b85a687b.js.map"
+    "main.js": "/Joymovie/static/js/main.c2aad713.js",
+    "index.html": "/Joymovie/index.html",
+    "main.c2aad713.js.map": "/Joymovie/static/js/main.c2aad713.js.map"
   },
   "entrypoints": [
-    "static/js/main.b85a687b.js"
+    "static/js/main.c2aad713.js"
   ]
 }
