@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/joymovie/static/js/main.b85a687b.js",
+    "index.html": "/joymovie/index.html",
+    "main.b85a687b.js.map": "/joymovie/static/js/main.b85a687b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b85a687b.js"
+  ]
+}
