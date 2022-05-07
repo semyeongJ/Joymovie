@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "../css/Detail.css";
 
 function Detail() {
   const [loading, setLoading] = useState(true);
@@ -15,9 +16,11 @@ function Detail() {
     getMovie();
   }, []);
   return (
-    <div>
+    <div className="container">
       {loading ? (
-        <h1>Loading...</h1>
+        <div className="loader">
+          <span className="loader_text">Loading...</span>
+        </div>
       ) : (
         <div style={{ height: "500px", width: "1000px" }}>
           <h2>{movie.title_long}</h2>
