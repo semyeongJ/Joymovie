@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Joymovie/static/css/main.43da2da6.css",
-    "main.js": "/Joymovie/static/js/main.d2232316.js",
+    "main.js": "/Joymovie/static/js/main.520ac758.js",
     "index.html": "/Joymovie/index.html",
     "main.43da2da6.css.map": "/Joymovie/static/css/main.43da2da6.css.map",
-    "main.d2232316.js.map": "/Joymovie/static/js/main.d2232316.js.map"
+    "main.520ac758.js.map": "/Joymovie/static/js/main.520ac758.js.map"
   },
   "entrypoints": [
     "static/css/main.43da2da6.css",
-    "static/js/main.d2232316.js"
+    "static/js/main.520ac758.js"
   ]
 }
